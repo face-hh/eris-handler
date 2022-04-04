@@ -38,7 +38,7 @@ module.exports = class PingInteraction extends InteractionBase {
 			interaction.createMessage('', { name: 'file.png', file: await buffer('https://url.png') });
 		}
 		else if(interaction.data.options[0].value === 'minigames') {
-			interaction.createMessage('', { name: 'file.png', file: await buffer('https://url.png`) });
+			interaction.createMessage('', { name: 'file.png', file: await buffer('https://url.png') });
 		}
 	}
 };
